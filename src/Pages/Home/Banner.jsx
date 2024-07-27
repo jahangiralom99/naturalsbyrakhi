@@ -1,8 +1,7 @@
-
 const Banner = () => {
-    return (
-        <div className="pt-24">
-      <div className="max-w-screen-xl mx-auto px-6 bg-white">
+  return (
+    <div className="pt-24">
+      <div className="relative max-w-screen-xl mx-auto px-6 bg-white">
         <div className="pt-6 text-center">
           <h1 className="text-3xl font-bold">চুল সমস্যার প্রাকৃতিক সমাধান</h1>
           <div className="mt-12 max-w-screen-lg mx-auto">
@@ -29,14 +28,14 @@ const Banner = () => {
           </div>
         </div>
         {/* FAQ Section */}
-        <div className="bg-[#008037] p-8 mt-12">
+        <div className="bg-[#008037] p-8 mt-12 pb-28">
           <h1 className="text-2xl text-white ">
             নীচের প্রশ্নগুলো আমরা প্রতিনিয়ত পেয়ে থাকি। আশা করি এর মধ্যে আপনি
             আপনার প্রশ্নের উত্তর পেয়ে যাবেন এবং আমাদের তেলের সম্পর্কে বিস্তারিত
             জানতে পারবেন...
           </h1>
           {/* faq start */}
-           <div className="px-6">
+          <div className="px-6">
             <div className="join join-vertical w-full mt-12 text-white">
               <div className="collapse collapse-arrow join-item  border">
                 <input type="radio" name="my-accordion-4" defaultChecked />
@@ -172,9 +171,35 @@ const Banner = () => {
             </div>
           </div>
         </div>
+        {/* svg path  */}
+        <div className="absolute -bottom-0 w-full left-0 rotate-180">
+          <svg
+            fill="#fff"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 283.5 19.6"
+            preserveAspectRatio="none"
+          >
+            <path
+              className="elementor-shape-fill opacity-40"
+              d="M0 0L0 18.8 141.8 4.1 283.5 18.8 283.5 0z"
+            ></path>
+            <path
+              className="elementor-shape-fill opacity-40"
+              d="M0 0L0 12.6 141.8 4 283.5 12.6 283.5 0z"
+            ></path>
+            <path
+              className="elementor-shape-fill opacity-40"
+              d="M0 0L0 6.4 141.8 4 283.5 6.4 283.5 0z"
+            ></path>
+            <path
+              className="elementor-shape-fill opacity-40"
+              d="M0 0L0 1.2 141.8 4 283.5 1.2 283.5 0z"
+            ></path>
+          </svg>
+        </div>
       </div>
     </div>
-    );
+  );
 };
 
 export default Banner;
