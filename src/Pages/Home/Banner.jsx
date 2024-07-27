@@ -174,7 +174,7 @@ const Banner = () => {
         {/* svg path  */}
         <div className="absolute -bottom-0 w-full left-0 rotate-180">
           <svg
-            fill="#fff"
+            fill="#FFF"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 283.5 19.6"
             preserveAspectRatio="none"
