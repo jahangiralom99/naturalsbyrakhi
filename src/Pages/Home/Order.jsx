@@ -278,7 +278,9 @@ const Order = () => {
         </div>
         {/* bottom text */}
         <div className="mt-12 text-center p-4">
-          <h1 className="text-2xl text-[#008037] font-bold">কোন প্রশ্ন বা সাহায্য লাগলে কল করুনঃ 09613-651212</h1>
+          <h1 className="text-2xl text-[#008037] font-bold">
+            কোন প্রশ্ন বা সাহায্য লাগলে কল করুনঃ 09613-651212
+          </h1>
         </div>
       </div>
     </div>

@@ -4,10 +4,10 @@ import Pricing from "./Pricing";
 
 const Home = () => {
   return (
-      <div>
+    <div>
       <Banner />
       <Pricing />
-      <Order/>
+      <Order />
     </div>
   );
 };
