@@ -59,113 +59,119 @@ const Banner = () => {
               </div>
             </div>
             {/* FAQ Section */}
-            <div className="bg-[#008037] p-8 mt-12 pb-28">
-              <h1 className="text-2xl text-white ">
-                {formatStyle("custom_head_text_3")}
-              </h1>
-              {/* faq start */}
-              <div className="px-6">
-                <div className="join join-vertical w-full mt-12 text-white">
-                  <div className="collapse collapse-arrow join-item  border">
-                    <input type="radio" name="my-accordion-4" defaultChecked />
-                    <div className="collapse-title text-xl font-medium">
-                      {formatStyle("custom_hea1_text_4")}
+            <div className="relative">
+              <div className="bg-[#008037] p-8 mt-12 pb-28">
+                <h1 className="text-2xl text-white ">
+                  {formatStyle("custom_head_text_3")}
+                </h1>
+                {/* faq start */}
+                <div className="px-6">
+                  <div className="join join-vertical w-full mt-12 text-white">
+                    <div className="collapse collapse-arrow join-item  border">
+                      <input
+                        type="radio"
+                        name="my-accordion-4"
+                        defaultChecked
+                      />
+                      <div className="collapse-title text-xl font-medium">
+                        {formatStyle("custom_hea1_text_4")}
+                      </div>
+                      <div className="collapse-content">
+                        <p>{formatStyle("custom_head1_text_5")}</p>
+                      </div>
                     </div>
-                    <div className="collapse-content">
-                      <p>{formatStyle("custom_head1_text_5")}</p>
+                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" />
+                      <div className="collapse-title text-xl font-medium">
+                        {formatStyle("custom_head1_text_6")}
+                      </div>
+                      <div className="collapse-content">
+                        <p>{formatStyle("custom_head1_text_7")}</p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="collapse collapse-arrow join-item border-base-300 border">
-                    <input type="radio" name="my-accordion-4" />
-                    <div className="collapse-title text-xl font-medium">
-                      {formatStyle("custom_head1_text_6")}
+                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" />
+                      <div className="collapse-title text-xl font-medium">
+                        {formatStyle("custom_head1_text_8")}
+                      </div>
+                      <div className="collapse-content">
+                        <p>{formatStyle("custom_head1_text_9")}</p>
+                      </div>
                     </div>
-                    <div className="collapse-content">
-                      <p>{formatStyle("custom_head1_text_7")}</p>
+                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" />
+                      <div className="collapse-title text-xl font-medium">
+                        {formatStyle("custom_head1_text_10")}
+                      </div>
+                      <div className="collapse-content">
+                        <p>{formatStyle("custom_head1_text_11")}</p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="collapse collapse-arrow join-item border-base-300 border">
-                    <input type="radio" name="my-accordion-4" />
-                    <div className="collapse-title text-xl font-medium">
-                      {formatStyle("custom_head1_text_8")}
+                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" />
+                      <div className="collapse-title text-xl font-medium">
+                        {formatStyle("custom_head1_text_12")}
+                      </div>
+                      <div className="collapse-content">
+                        <p>{formatStyle("custom_head1_text_13")}</p>
+                      </div>
                     </div>
-                    <div className="collapse-content">
-                      <p>{formatStyle("custom_head1_text_9")}</p>
+                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" />
+                      <div className="collapse-title text-xl font-medium">
+                        {formatStyle("custom_head1_text_14")}
+                      </div>
+                      <div className="collapse-content">
+                        <p>{formatStyle("custom_head1_text_15")}</p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="collapse collapse-arrow join-item border-base-300 border">
-                    <input type="radio" name="my-accordion-4" />
-                    <div className="collapse-title text-xl font-medium">
-                      {formatStyle("custom_head1_text_10")}
+                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" />
+                      <div className="collapse-title text-xl font-medium">
+                        {formatStyle("custom_head1_text_16")}
+                      </div>
+                      <div className="collapse-content">
+                        <p>{formatStyle("custom_head1_text_17")}</p>
+                      </div>
                     </div>
-                    <div className="collapse-content">
-                      <p>{formatStyle("custom_head1_text_11")}</p>
-                    </div>
-                  </div>
-                  <div className="collapse collapse-arrow join-item border-base-300 border">
-                    <input type="radio" name="my-accordion-4" />
-                    <div className="collapse-title text-xl font-medium">
-                      {formatStyle("custom_head1_text_12")}
-                    </div>
-                    <div className="collapse-content">
-                      <p>{formatStyle("custom_head1_text_13")}</p>
-                    </div>
-                  </div>
-                  <div className="collapse collapse-arrow join-item border-base-300 border">
-                    <input type="radio" name="my-accordion-4" />
-                    <div className="collapse-title text-xl font-medium">
-                      {formatStyle("custom_head1_text_14")}
-                    </div>
-                    <div className="collapse-content">
-                      <p>{formatStyle("custom_head1_text_15")}</p>
-                    </div>
-                  </div>
-                  <div className="collapse collapse-arrow join-item border-base-300 border">
-                    <input type="radio" name="my-accordion-4" />
-                    <div className="collapse-title text-xl font-medium">
-                      {formatStyle("custom_head1_text_16")}
-                    </div>
-                    <div className="collapse-content">
-                      <p>{formatStyle("custom_head1_text_17")}</p>
-                    </div>
-                  </div>
-                  <div className="collapse collapse-arrow join-item border-base-300 border">
-                    <input type="radio" name="my-accordion-4" />
-                    <div className="collapse-title text-xl font-medium">
-                      {formatStyle("custom_head1_text_18")}
-                    </div>
-                    <div className="collapse-content">
-                      <p>{formatStyle("custom_head1_text_19")}</p>
+                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                      <input type="radio" name="my-accordion-4" />
+                      <div className="collapse-title text-xl font-medium">
+                        {formatStyle("custom_head1_text_18")}
+                      </div>
+                      <div className="collapse-content">
+                        <p>{formatStyle("custom_head1_text_19")}</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            {/* svg path  */}
-            <div className="absolute -bottom-0 w-full left-0 rotate-180">
-              <svg
-                fill="#FFF"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 283.5 19.6"
-                preserveAspectRatio="none"
-              >
-                <path
-                  className="elementor-shape-fill opacity-40"
-                  d="M0 0L0 18.8 141.8 4.1 283.5 18.8 283.5 0z"
-                ></path>
-                <path
-                  className="elementor-shape-fill opacity-40"
-                  d="M0 0L0 12.6 141.8 4 283.5 12.6 283.5 0z"
-                ></path>
-                <path
-                  className="elementor-shape-fill opacity-40"
-                  d="M0 0L0 6.4 141.8 4 283.5 6.4 283.5 0z"
-                ></path>
-                <path
-                  className="elementor-shape-fill opacity-40"
-                  d="M0 0L0 1.2 141.8 4 283.5 1.2 283.5 0z"
-                ></path>
-              </svg>
+              {/* svg path  */}
+              <div className="absolute -bottom-0 w-full left-0 rotate-180">
+                <svg
+                  fill="#FFF"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 283.5 19.6"
+                  preserveAspectRatio="none"
+                >
+                  <path
+                    className="elementor-shape-fill opacity-40"
+                    d="M0 0L0 18.8 141.8 4.1 283.5 18.8 283.5 0z"
+                  ></path>
+                  <path
+                    className="elementor-shape-fill opacity-40"
+                    d="M0 0L0 12.6 141.8 4 283.5 12.6 283.5 0z"
+                  ></path>
+                  <path
+                    className="elementor-shape-fill opacity-40"
+                    d="M0 0L0 6.4 141.8 4 283.5 6.4 283.5 0z"
+                  ></path>
+                  <path
+                    className="elementor-shape-fill opacity-40"
+                    d="M0 0L0 1.2 141.8 4 283.5 1.2 283.5 0z"
+                  ></path>
+                </svg>
+              </div>
             </div>
             {/* Pricing  */}
             <div className="mt-12 bg-white max-w-screen-xl mx-auto pt-12">
