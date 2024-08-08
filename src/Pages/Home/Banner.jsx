@@ -28,7 +28,7 @@ const Banner = () => {
 
   return (
     <>
-      {loader ? (
+      { loader ? (
         "Loading"
       ) : (
         <div className="pt-24">
