@@ -4,15 +4,13 @@ import { Outlet, useLoaderData } from "react-router-dom";
 export const ItemContext = createContext([]);
 
 function App() {
-
   const { items } = useLoaderData();
-  // console.log(items);
 
   return (
     <div className="bg-[#f5f5f5]">
       <ItemContext.Provider value={items}>
-      <Outlet />
-     </ItemContext.Provider>
+        <Outlet />
+      </ItemContext.Provider>
     </div>
   );
 }

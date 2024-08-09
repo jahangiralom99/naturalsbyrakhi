@@ -26,7 +26,7 @@ const Banner = () => {
     }
   };
 
-  return (
+  return ( 
     <>
       { loader ? (
         "Loading"
